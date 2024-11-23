@@ -121,7 +121,7 @@ def savings_goal_menu():
         else:
             print("Invalid choice. Please select a valid option.")
 
-# Main Menu Function to interact with hte user
+# Main Menu Function to interact with the  user
 def main_menu():
     expenses_input = load_data()
     budget = float(input("Enter your initial budget for today: $"))
